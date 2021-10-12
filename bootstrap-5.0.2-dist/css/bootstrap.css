@@ -6536,6 +6536,46 @@ fieldset:disabled .btn {
     animation: 0.75s linear infinite spinner-border;
 }
 
+@-webkit-keyframes vuelta {
+    to {
+        transform: rotate(360deg)/* rtl:ignore */
+        ;
+    }
+}
+
+@keyframes vuelta {
+    to {
+        transform: rotate(360deg)/* rtl:ignore */
+        ;
+    }
+}
+
+.vuelta {
+    display: inline-block;
+    -webkit-animation: 0.75s linear infinite vuelta;
+    animation: 0.75s linear infinite vuelta;
+}
+
+@-webkit-keyframes vuelta1 {
+    to {
+        transform: rotate(360deg)/* rtl:ignore */
+        ;
+    }
+}
+
+@keyframes vuelta1 {
+    to {
+        transform: rotate(360deg)/* rtl:ignore */
+        ;
+    }
+}
+
+.vuelta1 {
+    display: inline-block;
+    -webkit-animation: 1s linear infinite vuelta1;
+    animation: 1s linear infinite vuelta1;
+}
+
 .spinner-border-sm {
     width: 1rem;
     height: 1rem;
