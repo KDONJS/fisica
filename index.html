@@ -8,11 +8,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-bottom/">
+    <link rel="shortcut icon" href="img/fisca 1.svg" type="image/x-icon">
 </head>
 
 <body>
     <!-- Nav tabs -->
     <ul class="nav nav-tabs|pills" id="navId" role="tablist">
+        <li class="nav-item">
+            <a class="navbar-brand" href="#">
+                <img src="img/fisca 2.svg" alt="" width="30" height="24">
+            </a>
+        </li>
         <li class="nav-item">
             <a href="#tab1Id" class="nav-link active" data-bs-toggle="tab">Inicio</a>
         </li>
@@ -254,10 +260,48 @@
 
             </div>
             <div class="col-sm-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" fill="currentColor" class="bi bi-award-fill color" viewBox="0 0 16 16">
-                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
-                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
-                  </svg>
+                <!--modal-->
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/fisica.svg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Show a second modal and hide this one with the button below.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">siguiente</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Hide this modal and show the first with the button below.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">anterior</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Saber más</a>
+                    </div>
+                </div>
+                <!--fin modal-->
             </div>
         </div>
         <!--fin form-->
