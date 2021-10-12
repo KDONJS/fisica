@@ -15,7 +15,7 @@
     <!-- Nav tabs -->
     <ul class="nav nav-tabs|pills" id="navId" role="tablist">
         <li class="nav-item">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <img class="vuelta" src="img/fisca 2.svg" alt="" width="30" height="24">
             </a>
         </li>
@@ -23,7 +23,7 @@
             <a href="index.php" class="nav-link active">Inicio</a>
         </li>
         <li class="nav-item">
-            <a href="nosostros.html" class="nav-link">Blog</a>
+            <a href="nosostros.php" class="nav-link">Blog</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Cursos</a>
