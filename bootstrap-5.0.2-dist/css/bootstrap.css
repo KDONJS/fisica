@@ -189,6 +189,7 @@ ul ol {
 
 li {
     color: white;
+    list-style: none;
 }
 
 dt {
@@ -240,7 +241,7 @@ sup {
 
 a {
     color: #0d6efd;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
@@ -3952,7 +3953,7 @@ fieldset:disabled .btn {
     height: 0;
     margin: 0.5rem 0;
     overflow: hidden;
-    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(51, 51, 51, 0.582);
 }
 
 .dropdown-item {
@@ -7846,6 +7847,7 @@ fieldset:disabled .btn {
 
 .fst-italic {
     font-style: italic !important;
+    text-align: center;
 }
 
 .fst-normal {
@@ -8029,6 +8031,10 @@ fieldset:disabled .btn {
 
 .bg-dark1 {
     background-color: #000000!important;
+}
+
+.bg-dark2 {
+    background-color: #ffffff44!important;
 }
 
 .bg-dark {
