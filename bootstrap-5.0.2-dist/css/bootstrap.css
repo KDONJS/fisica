@@ -6610,7 +6610,7 @@ fieldset:disabled .btn {
 .offcanvas-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem 1rem;
 }
 
@@ -8084,7 +8084,7 @@ fieldset:disabled .btn {
 }
 
 .rounded {
-    border-radius: 0.25rem !important;
+    border-radius: 0.5rem !important;
 }
 
 .rounded-0 {
